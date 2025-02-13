@@ -1,0 +1,62 @@
+/* Alap beállítások */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Konténer */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Címsor (színátmenetes) */
+h1 {
+    font-family: 'Dancing Script', serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Pirosas-rosaszínes átmenet */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Bevezető szöveg */
+.intro {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Szöveg a képek alatt */
+.container p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+	width: 80%; /* A kép szélessége a konténer szélességéhez igazodik */
+  max-width: 500px; /* Maximális szélesség, hogy ne legyen túl nagy */
+  height: auto; /* Az arányok megőrzéséhez */
+  display: block; /* Blokk elemként jelenik meg */
+  margin: 20px auto; /* Középre igazítja */
+  border-radius: 10px; /* Lekerekített sarkok */
+}
+
+/* Kép */
+img {
+  width: 80%; /* A kép szélessége a konténer szélességéhez igazodik */
+  max-width: 500px; /* Maximális szélesség, hogy ne legyen túl nagy */
+  height: auto; /* Az arányok megőrzéséhez */
+  display: block; /* Blokk elemként jelenik meg */
+  margin: 20px auto; /* Középre igazítja */
+  border-radius: 10px; /* Lekerekített sarkok */
+}
